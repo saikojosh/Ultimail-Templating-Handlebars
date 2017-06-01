@@ -1,0 +1,46 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saikojosh/Ultimail-Templating-Handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saikojosh/Ultimail-Templating-Handlebars/issues"
+  },
+  "name": "ultimail-provider-postmark",
+  "version": "0.0.1",
+  "description": "Templating middleware for Ultimail that adds support for parsing Handlebars templates.",
+  "keywords": [
+    "ultimail",
+    "templating",
+    "template",
+    "templates",
+    "handlebars",
+    "email",
+    "emails",
+    "middleware"
+  ],
+  "main": "ultimailTemplatingHandlebars.js",
+  "author": "Josh Cole <saikojosh@gmail.com> (http://www.JoshuaCole.me)",
+  "contributors": [
+    {
+      "name": "Josh Cole",
+      "email": "saikojosh@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "object-extender": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-recombix": "latest",
+    "eslint-plugin-filenames": "latest",
+    "eslint-plugin-json": "latest",
+    "eslint-plugin-node": "^4.2.1",
+    "eslint-plugin-promise": "latest"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MIT"
+}
